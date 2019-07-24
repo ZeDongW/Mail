@@ -22,7 +22,7 @@ import java.util.Properties;
 
 public class SendMail {
 
-    //设置邮件阐述
+    //设置邮件参数
     static Properties properties = new Properties();
 
     //创建邮箱会话
@@ -96,8 +96,6 @@ public class SendMail {
 
     //发送带图片的邮件
     public void sendMail_image() throws MessagingException {
-        //创建邮件会话
-        Session session = Session.getDefaultInstance(properties);
 
         //设置邮箱信息
 
